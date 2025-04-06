@@ -5,13 +5,14 @@ A modern React.js frontend application built with Vite, Bootstrap, and Axios. Fe
 ---
 
 ## Getting Started
- - Clone repository: ```bash git clone https://github.com/Clifford-arch/AutoText-frontend-assignment.git```
- - Install dependencies: ```bash npm install```
- - Run development server: ```bash npm run dev```
+ - Clone repository: ``` git clone https://github.com/Clifford-arch/AutoText-frontend-assignment.git```
+ - Install dependencies: ``` npm install```
+ - Run development server: ``` npm run dev```
 
 ---
 
 ## Project Structure
+```
 src/
 ├── assets/
 │   ├── scss/          # Global stylesheets
@@ -26,6 +27,7 @@ src/
 ├── App.css            # Global CSS
 ├── App.jsx            # Root component
 └── main.jsx           # Entry point
+```
 
 ---
 
