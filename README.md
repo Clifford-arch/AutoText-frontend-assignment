@@ -4,6 +4,31 @@ A modern React.js frontend application built with Vite, Bootstrap, and Axios. Fe
 
 ---
 
+## Getting Started
+ - Clone repository: ```bash git clone https://github.com/Clifford-arch/AutoText-frontend-assignment.git```
+ - Install dependencies: ```bash npm install```
+ - Run development server: ```bash npm run dev```
+
+---
+
+## Project Structure
+src/
+├── assets/
+│   ├── scss/          # Global stylesheets
+│   └── vite.svg       # Logo asset
+├── components/        # Reusable components
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Home.jsx
+│   ├── PostList.jsx
+│   └── WeatherWidget.jsx
+├── services/          # API service layer
+├── App.css            # Global CSS
+├── App.jsx            # Root component
+└── main.jsx           # Entry point
+
+---
+
 ## Features
 - Responsive design with React Bootstrap  
 -  Dynamic post listing component  (free api)
@@ -20,9 +45,7 @@ A modern React.js frontend application built with Vite, Bootstrap, and Axios. Fe
 - **Styling**: Bootstrap 5.3 + SCSS  
 - **Routing**: React Router DOM 7.5  
 
-# Installation for local setup
-- npm install
-- npm run dev
+
 
 ### Dependencies
 ```bash
