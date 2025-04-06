@@ -1,0 +1,17 @@
+
+
+  .hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .hero-icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+  }
+  
