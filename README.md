@@ -7,7 +7,7 @@ A modern React.js frontend application built with Vite, Bootstrap, and Axios. Fe
 ## Features
 ✅ Responsive design with React Bootstrap  
 ✅ Dynamic post listing component  
-✅ Integrated OpenWeatherMap widget (API key required)  
+✅ Integrated Openmeteor widget
 ✅ Modern Vite build system  
 ✅ Linting with ESLint + Prettier  
 
