@@ -1,6 +1,6 @@
 # Installation for local setup
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 
 # React + Vite
