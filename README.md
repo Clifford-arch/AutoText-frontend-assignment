@@ -1,4 +1,4 @@
-# React Frontend Task 🚀
+# React Frontend Task 
 
 A modern React.js frontend application built with Vite, Bootstrap, and Axios. Features a responsive layout with a home page, post listing, and integrated weather widget.
 
