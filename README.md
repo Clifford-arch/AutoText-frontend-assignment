@@ -13,20 +13,35 @@ A modern React.js frontend application built with Vite, Bootstrap, and Axios. Fe
 
 ## Project Structure
 ```
-src/
-├── assets/
-│   ├── scss/          # Global stylesheets
-│   └── vite.svg       # Logo asset
-├── components/        # Reusable components
-│   ├── Footer.jsx
-│   ├── Header.jsx
-│   ├── Home.jsx
-│   ├── PostList.jsx
-│   └── WeatherWidget.jsx
-├── services/          # API service layer
-├── App.css            # Global CSS
-├── App.jsx            # Root component
-└── main.jsx           # Entry point
+react-frontend-task/
+├── node_modules/       # Installed dependencies
+├── public/             # Static assets
+│   └── vite.svg        # Logo asset
+├── src/                # Source code
+│   ├── assets/         # Global stylesheets
+│   │   └── scss/       # SCSS partials
+│   │       ├── home.css
+│   │       ├── post.css
+│   │       └── weather.css
+│   ├── components/     # Reusable UI components
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Home.jsx
+│   │   ├── Postlist.jsx
+│   │   └── WeatherWidget.jsx
+│   ├── services/       # API service layer
+│   │   └── api.js      # Centralized API requests
+│   ├── App.css         # Global CSS overrides
+│   ├── App.jsx         # Root component
+│   ├── index.css       # Base styles
+│   └── main.jsx        # Entry point
+├── .eslint.config.js   # ESLint configuration
+├── .gitignore          # Git ignore rules
+├── index.html          # HTML template
+├── package-lock.json   # Dependency lockfile
+├── package.json        # Project metadata
+├── README.md           # Documentation
+└── vite.config.js      # Vite configuration
 ```
 
 ---
